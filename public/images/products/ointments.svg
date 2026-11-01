@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="roseBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff1f2" />
+      <stop offset="100%" stop-color="#ffe4e6" />
+    </linearGradient>
+    <linearGradient id="tubeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#f8fafc" />
+      <stop offset="85%" stop-color="#e2e8f0" />
+      <stop offset="100%" stop-color="#cbd5e1" />
+    </linearGradient>
+    <filter id="creamShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="5" stdDeviation="4" flood-opacity="0.14" />
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#roseBg)" rx="16"/>
+  <!-- Tube -->
+  <g transform="translate(110, 40)" filter="url(#creamShadow)">
+    <!-- Tube top crimp -->
+    <rect x="25" y="0" width="55" height="12" rx="2" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1"/>
+    <!-- Tube body -->
+    <polygon points="25,12 80,12 70,170 35,170" fill="url(#tubeGrad)" stroke="#cbd5e1" stroke-width="1"/>
+    <!-- Tube cap -->
+    <rect x="30" y="170" width="45" height="25" rx="4" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+    <line x1="33" y1="178" x2="72" y2="178" stroke="#cbd5e1" stroke-width="1"/>
+    <line x1="33" y1="186" x2="72" y2="186" stroke="#cbd5e1" stroke-width="1"/>
+
+    <!-- Tube branding -->
+    <rect x="36" y="50" width="33" height="6" rx="2" fill="#f43f5e"/>
+    <rect x="36" y="64" width="28" height="3" rx="1" fill="#64748b"/>
+    <rect x="36" y="73" width="22" height="3" rx="1" fill="#64748b"/>
+    <circle cx="52" cy="115" r="8" fill="#fda4af" opacity="0.5"/>
+  </g>
+
+  <!-- Cream Jar -->
+  <g transform="translate(200, 140)" filter="url(#creamShadow)">
+    <!-- Lid -->
+    <rect x="10" y="0" width="90" height="22" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <!-- Jar body -->
+    <path d="M12 22 L98 22 C104 22 108 26 108 34 L104 76 C104 84 98 90 90 90 L20 90 C12 90 6 84 6 76 L2 34 C2 26 6 22 12 22 Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <!-- Jar label band -->
+    <rect x="6" y="38" width="98" height="35" fill="#fff1f2"/>
+    <rect x="18" y="46" width="45" height="6" rx="2" fill="#e11d48"/>
+    <rect x="18" y="58" width="60" height="3" rx="1" fill="#94a3b8"/>
+  </g>
+</svg>

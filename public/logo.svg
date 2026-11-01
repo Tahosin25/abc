@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <path d="M50 8C36 8 20 20 20 40C20 62 42 82 50 92C58 82 80 62 80 40C80 20 64 8 50 8Z" fill="#0284c7" />
+  <path d="M50 16C39 16 28 26 28 41C28 58 45 74 50 82C55 74 72 58 72 41C72 26 61 16 50 16Z" fill="#0369a1" />
+  <!-- Medical cross with rounded ends -->
+  <rect x="44" y="30" width="12" height="30" rx="4" fill="white" />
+  <rect x="35" y="39" width="30" height="12" rx="4" fill="white" />
+  <!-- Dynamic leaf swoosh representing care & health -->
+  <path d="M42 22C46 16 54 16 58 22C62 28 58 36 50 36C42 36 38 28 42 22Z" fill="#38bdf8" opacity="0.8" />
+</svg>

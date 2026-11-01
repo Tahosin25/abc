@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mintBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ecfdf5" />
+      <stop offset="100%" stop-color="#d1fae5" />
+    </linearGradient>
+    <linearGradient id="amberGlass" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#78350f" />
+      <stop offset="35%" stop-color="#b45309" />
+      <stop offset="70%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#78350f" />
+    </linearGradient>
+    <filter id="liquidShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="3" dy="6" stdDeviation="5" flood-opacity="0.18" />
+    </filter>
+  </defs>
+  <rect width="400" height="300" fill="url(#mintBg)" rx="16"/>
+  <!-- Bottle & cup -->
+  <g transform="translate(130, 30)" filter="url(#liquidShadow)">
+    <!-- Amber Bottle Neck & Cap -->
+    <rect x="35" y="0" width="30" height="15" rx="3" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <rect x="38" y="15" width="24" height="20" fill="#92400e"/>
+    <!-- Bottle Body -->
+    <path d="M10 50 C10 35 25 35 40 35 L60 35 C75 35 90 35 90 50 L90 190 C90 205 85 210 70 210 L30 210 C15 210 10 205 10 190 Z" fill="url(#amberGlass)"/>
+    <!-- Label -->
+    <rect x="15" y="80" width="70" height="90" rx="4" fill="#ffffff" opacity="0.95"/>
+    <rect x="25" y="92" width="50" height="8" rx="2" fill="#0284c7"/>
+    <rect x="25" y="106" width="35" height="4" rx="2" fill="#94a3b8"/>
+    <rect x="25" y="115" width="45" height="4" rx="2" fill="#94a3b8"/>
+    <line x1="25" y1="135" x2="75" y2="135" stroke="#e2e8f0" stroke-width="2"/>
+    <circle cx="50" cy="150" r="10" fill="#10b981" opacity="0.2"/>
+    <text x="50" y="154" font-family="sans-serif" font-size="10" font-weight="bold" fill="#059669" text-anchor="middle">100ml</text>
+
+    <!-- Clear measuring cup on right with orange syrup -->
+    <g transform="translate(110, 85)">
+      <polygon points="0,30 50,30 42,125 8,125" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5" opacity="0.75"/>
+      <!-- Orange syrup inside cup -->
+      <polygon points="4,85 46,85 41,123 9,123" fill="#f97316" opacity="0.85"/>
+      <!-- Measurement ticks -->
+      <line x1="12" y1="50" x2="22" y2="50" stroke="#64748b" stroke-width="1.5"/>
+      <line x1="10" y1="70" x2="24" y2="70" stroke="#64748b" stroke-width="1.5"/>
+      <line x1="8" y1="90" x2="26" y2="90" stroke="#ffffff" stroke-width="1.5"/>
+      <line x1="6" y1="110" x2="28" y2="110" stroke="#ffffff" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>
